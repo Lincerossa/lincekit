@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Lincerossa/lincekit/compare/v1.0.0...v1.1.0) (2023-06-09)
+
+
+### Features
+
+* enable the publish on npm ([a1f3d1d](https://github.com/Lincerossa/lincekit/commit/a1f3d1d1bfecd402d6bbcc77db7073213124e823))
+
 # 1.0.0 (2023-06-09)
 
 
