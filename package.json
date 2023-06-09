@@ -7,13 +7,20 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "commit": "cz"
+    "commit": "cz",
+    "release": "semantic-release --no-ci"
   },
   "dependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^10.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^10.0.3",
+    "@semantic-release/release-notes-generator": "^11.0.3",
     "cz": "^1.8.2",
     "cz-conventional-changelog": "^3.3.0",
     "react": "^16.8.0 || 17.x",
     "react-dom": "^16.8.0 || 17.x",
+    "semantic-release": "^21.0.3",
     "styled-components": "^5.0.0"
   },
   "devDependencies": {
@@ -35,10 +42,24 @@
   "files": [
     "dist"
   ],
+  "volta": {
+    "node": "18.15.0"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/git"
+    ],
+    "branches": [
+      "master"
+    ]
   },
   "main": "./dist/lincekit.umd.js",
   "module": "./dist/lincekit.es.js",
