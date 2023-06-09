@@ -1,6 +1,6 @@
 {
   "name": "lincekit",
-  "private": true,
+  "private": false,
   "version": "1.1.0",
   "type": "module",
   "scripts": {
