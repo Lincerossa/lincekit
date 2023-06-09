@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Lincerossa/lincekit/compare/v1.1.0...v1.2.0) (2023-06-09)
+
+
+### Features
+
+* made publishable ([8542210](https://github.com/Lincerossa/lincekit/commit/85422102af6811ea1661f3ed03909c79f5c47536))
+
 # [1.1.0](https://github.com/Lincerossa/lincekit/compare/v1.0.0...v1.1.0) (2023-06-09)
 
 
