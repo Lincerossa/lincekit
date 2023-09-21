@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/Lincerossa/lincekit/compare/v1.3.0...v1.3.1) (2023-09-21)
+
+
+### Bug Fixes
+
+* release after OTP ([584b8fe](https://github.com/Lincerossa/lincekit/commit/584b8fe02e44835032d0dba7e3051787139cb6d9))
+
 # [1.3.0](https://github.com/Lincerossa/lincekit/compare/v1.2.0...v1.3.0) (2023-09-21)
 
 
