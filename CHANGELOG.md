@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/Lincerossa/lincekit/compare/v1.2.0...v1.3.0) (2023-09-21)
+
+
+### Features
+
+* publish new version ([efc7809](https://github.com/Lincerossa/lincekit/commit/efc78090e3fc8525464148cfda3aeb5a5db1e474))
+
 # [1.2.0](https://github.com/Lincerossa/lincekit/compare/v1.1.0...v1.2.0) (2023-06-09)
 
 
