@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/Lincerossa/lincekit/compare/v1.3.2...v1.4.0) (2023-09-21)
+
+
+### Bug Fixes
+
+* ubuntu github actions updated vs last version ([b3b6f86](https://github.com/Lincerossa/lincekit/commit/b3b6f860bbe26bbd4a99840fb7b68d3ffbed63c9))
+
+
+### Features
+
+* added basic github actions ([1b6ac11](https://github.com/Lincerossa/lincekit/commit/1b6ac117a70d5369999f50cb8c77a88abdfaf13d))
+
 ## [1.3.2](https://github.com/Lincerossa/lincekit/compare/v1.3.1...v1.3.2) (2023-09-21)
 
 
