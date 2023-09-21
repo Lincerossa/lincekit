@@ -1,6 +1,6 @@
-import React, { FC } from 'react'
-import * as S from './styles'
-import { BackgroundProps } from './types'
+import React, { FC } from "react";
+import * as S from "./styles";
+import { BackgroundProps } from "./types";
 
 const Background: FC<BackgroundProps> = ({
   background,
@@ -11,6 +11,6 @@ const Background: FC<BackgroundProps> = ({
   <S.Background color={color} background={background} hasTexture={hasTexture}>
     {children}
   </S.Background>
-)
+);
 
-export default Background
+export default Background;
