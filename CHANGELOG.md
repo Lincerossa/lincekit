@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/Lincerossa/lincekit/compare/v1.4.0...v1.5.0) (2023-09-21)
+
+
+### Bug Fixes
+
+* re-enabled github actions to update code ([b9e86c7](https://github.com/Lincerossa/lincekit/commit/b9e86c7dfe4fb93b7f9844d1d94284f45e409c89))
+
+
+### Features
+
+* enabled publish npm automatically after github actions succeed ([e098955](https://github.com/Lincerossa/lincekit/commit/e098955b0b51696e727c14eefb0b3eb6a0cd191c))
+
 # [1.4.0](https://github.com/Lincerossa/lincekit/compare/v1.3.2...v1.4.0) (2023-09-21)
 
 
