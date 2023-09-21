@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/Lincerossa/lincekit/compare/v1.6.1...v1.7.0) (2023-09-21)
+
+
+### Features
+
+* added a github action ([3e3fc48](https://github.com/Lincerossa/lincekit/commit/3e3fc48078cc79a051d0b54e4f7e850ae8bf4ab0))
+
 ## [1.6.1](https://github.com/Lincerossa/lincekit/compare/v1.6.0...v1.6.1) (2023-09-21)
 
 

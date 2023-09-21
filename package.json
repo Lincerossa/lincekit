@@ -1,6 +1,6 @@
 {
   "name": "lincekit",
-  "version": "1.6.1",
+  "version": "1.7.0",
   "description": "A React component library for building personal web apps.",
   "type": "module",
   "main": "dist/lincekit.es.js",
