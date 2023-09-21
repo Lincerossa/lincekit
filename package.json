@@ -11,7 +11,8 @@
     "commit": "cz",
     "release": "semantic-release --no-ci",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "chromatic --exit-zero-on-changes"
   },
   "dependencies": {
     "react": "^16.8.0 || 17.x",
@@ -37,6 +38,7 @@
     "@types/react-dom": "^18.0.10",
     "@types/styled-components": "^5.1.26",
     "@vitejs/plugin-react": "^3.1.0",
+    "chromatic": "^7.2.0",
     "cz": "^1.8.2",
     "cz-conventional-changelog": "^3.3.0",
     "semantic-release": "^21.0.3",

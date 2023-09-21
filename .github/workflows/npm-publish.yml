@@ -18,8 +18,12 @@ jobs:
           node-version: 18
       - name: Install dependencies
         run: npm i
-      - name: Build
+      - name: Build pre release
         run: npm run build
+      - name: Build pre storybook publish
+        env:
+          CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+        run: npm run chromatic
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
