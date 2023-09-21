@@ -11,6 +11,12 @@
     "release": "semantic-release --no-ci"
   },
   "dependencies": {
+    "react": "^16.8.0 || 17.x",
+    "react-dom": "^16.8.0 || 17.x",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^21.0.3",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^10.0.1",
     "@semantic-release/git": "^10.0.1",
@@ -18,12 +24,6 @@
     "@semantic-release/release-notes-generator": "^11.0.3",
     "cz": "^1.8.2",
     "cz-conventional-changelog": "^3.3.0",
-    "react": "^16.8.0 || 17.x",
-    "react-dom": "^16.8.0 || 17.x",
-    "semantic-release": "^21.0.3",
-    "styled-components": "^5.0.0"
-  },
-  "devDependencies": {
     "@types/node": "^18.15.3",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
