@@ -7,11 +7,11 @@
   "module": "dist/lincekit.es.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
     "commit": "cz",
-    "release": "semantic-release --no-ci"
+    "release": "semantic-release --no-ci",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "react": "^16.8.0 || 17.x",
@@ -19,19 +19,28 @@
     "styled-components": "^5.0.0"
   },
   "devDependencies": {
-    "semantic-release": "^21.0.3",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^10.0.1",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/npm": "^10.0.3",
     "@semantic-release/release-notes-generator": "^11.0.3",
-    "cz": "^1.8.2",
-    "cz-conventional-changelog": "^3.3.0",
+    "@storybook/addon-essentials": "^7.4.3",
+    "@storybook/addon-interactions": "^7.4.3",
+    "@storybook/addon-links": "^7.4.3",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.4.3",
+    "@storybook/react": "^7.4.3",
+    "@storybook/react-vite": "^7.4.3",
+    "@storybook/testing-library": "^0.2.1",
     "@types/node": "^18.15.3",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@types/styled-components": "^5.1.26",
     "@vitejs/plugin-react": "^3.1.0",
+    "cz": "^1.8.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^21.0.3",
+    "storybook": "^7.4.3",
     "typescript": "^4.9.3",
     "vite": "^4.1.0",
     "vite-plugin-dts": "^2.1.0"
