@@ -1,3 +1,11 @@
+# [1.6.0](https://github.com/Lincerossa/lincekit/compare/v1.5.0...v1.6.0) (2023-09-21)
+
+
+### Features
+
+* added chromatic to the ci release ([ac85d9d](https://github.com/Lincerossa/lincekit/commit/ac85d9d0cca255c81b6e71807889e0b0101406c4))
+* added storybook ([ec6cae1](https://github.com/Lincerossa/lincekit/commit/ec6cae1fa276bf1742087e4c74264e4ec90c679d))
+
 # [1.5.0](https://github.com/Lincerossa/lincekit/compare/v1.4.0...v1.5.0) (2023-09-21)
 
 
