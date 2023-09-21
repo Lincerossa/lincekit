@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/Lincerossa/lincekit/compare/v1.3.1...v1.3.2) (2023-09-21)
+
+
+### Bug Fixes
+
+* fix release npm ([1d581db](https://github.com/Lincerossa/lincekit/commit/1d581db8d4466e47cd128aa37dc9a770e9139f34))
+
 ## [1.3.1](https://github.com/Lincerossa/lincekit/compare/v1.3.0...v1.3.1) (2023-09-21)
 
 
