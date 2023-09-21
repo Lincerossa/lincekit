@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/Lincerossa/lincekit/compare/v1.6.0...v1.6.1) (2023-09-21)
+
+
+### Bug Fixes
+
+* added a story to test the storybook version published ([44f8542](https://github.com/Lincerossa/lincekit/commit/44f854271fb01fdf285826a14f06a274b2a36cf8))
+
 # [1.6.0](https://github.com/Lincerossa/lincekit/compare/v1.5.0...v1.6.0) (2023-09-21)
 
 
