@@ -1,6 +1,5 @@
-// TEST: test publish after OTP V2
-export { default as Padder } from "./Padder";
-export { default as Wrapper } from "./Wrapper";
-export { default as Background } from "./Background";
-export { default as RichText } from "./RichText";
-export { default as MainLabel } from "./MainLabel";
+export { default as Padder } from './Padder'
+export { default as Wrapper } from './Wrapper'
+export { default as Background } from './Background'
+export { default as RichText } from './RichText'
+export { default as MainLabel } from './MainLabel'
