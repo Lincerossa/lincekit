@@ -1,0 +1,14 @@
+{
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "rules": {
+    "indent": ["error", 2],
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "jsxSingleQuote": true,
+        "quoteProps": "consistent"
+      }
+    ]
+  }
+}
