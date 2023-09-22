@@ -13,7 +13,6 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "chromatic": "chromatic --exit-zero-on-changes",
-    "lint": "eslint . --fix",
     "precommit": "lint-staged"
   },
   "dependencies": {
@@ -64,8 +63,9 @@
     "styled-components": "^5.0.0"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "npm run lint",
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write",
       "git add"
     ]
   },
