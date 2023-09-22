@@ -12,7 +12,9 @@
     "release": "semantic-release --no-ci",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "chromatic --exit-zero-on-changes"
+    "chromatic": "chromatic --exit-zero-on-changes",
+    "lint": "eslint . --fix",
+    "precommit": "lint-staged"
   },
   "dependencies": {
     "react": "^16.8.0 || 17.x",
@@ -45,6 +47,8 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-prettier": "^5.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
     "prettier": "^3.0.3",
     "semantic-release": "^21.0.3",
     "storybook": "^7.4.3",
@@ -58,6 +62,12 @@
     "react": "^16.8.0 || 17.x",
     "react-dom": "^16.8.0 || 17.x",
     "styled-components": "^5.0.0"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "npm run lint",
+      "git add"
+    ]
   },
   "files": [
     "dist"
