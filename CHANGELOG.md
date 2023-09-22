@@ -1,3 +1,19 @@
+# [1.8.0](https://github.com/Lincerossa/lincekit/compare/v1.7.0...v1.8.0) (2023-09-22)
+
+
+### Bug Fixes
+
+* file eslinted ([b480ec7](https://github.com/Lincerossa/lincekit/commit/b480ec759b11fad09b4bc65817adcbcec7152de5))
+* prettier vs all files ([7265ead](https://github.com/Lincerossa/lincekit/commit/7265eadf946a06b5464c882c7f55e7d9f2ac838e))
+* removed bugged vite eslint plugin ([8858c00](https://github.com/Lincerossa/lincekit/commit/8858c008c4f1523a9358816a23bc779945f0d433))
+
+
+### Features
+
+* enabled and fixed husky precommit ([af8a393](https://github.com/Lincerossa/lincekit/commit/af8a3938cac311be064c011c5c7c8d77b30864d1))
+* enabled eslint, prettier e vscode config ([7f1e5f0](https://github.com/Lincerossa/lincekit/commit/7f1e5f0fb5ab2c2ce6cd450ae0bbdbfa881c5a45))
+* husky preccommit + eslinted ([65ca124](https://github.com/Lincerossa/lincekit/commit/65ca1241b39be1466f3f699381d3d76d487db58e))
+
 # [1.7.0](https://github.com/Lincerossa/lincekit/compare/v1.6.1...v1.7.0) (2023-09-21)
 
 
