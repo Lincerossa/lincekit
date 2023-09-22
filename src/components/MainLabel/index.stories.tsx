@@ -1,24 +1,24 @@
-import type { Meta, StoryObj } from "@storybook/react";
+import type { Meta, StoryObj } from '@storybook/react'
 
-import MainLabel from "./index";
+import MainLabel from './index'
 
 const meta = {
-  title: "components/MainLabel",
+  title: 'components/MainLabel',
   component: MainLabel,
   parameters: {
-    layout: "centered",
+    layout: 'centered',
   },
-  tags: ["autodocs"],
+  tags: ['autodocs'],
   argTypes: {
-    text: { control: "text" },
+    text: { control: 'text' },
   },
-} satisfies Meta<typeof MainLabel>;
+} satisfies Meta<typeof MainLabel>
 
-export default meta;
-type Story = StoryObj<typeof meta>;
+export default meta
+type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
   args: {
-    text: "Hover me!",
+    text: 'Hover me!',
   },
-};
+}
