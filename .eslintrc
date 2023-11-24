@@ -1,7 +1,7 @@
 {
   "extends": ["react-app", "plugin:prettier/recommended"],
   "rules": {
-    "indent": ["error", 2],
+    // "indent": ["error", 2],
     "prettier/prettier": [
       "error",
       {
