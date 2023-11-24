@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/Lincerossa/lincekit/compare/v1.9.0...v1.9.1) (2023-11-24)
+
+
+### Bug Fixes
+
+* fixed module / main ([68635a8](https://github.com/Lincerossa/lincekit/commit/68635a8bb4b5c4678550ebf9b0ac9a9ff57ff23f))
+
 # [1.9.0](https://github.com/Lincerossa/lincekit/compare/v1.8.0...v1.9.0) (2023-11-24)
 
 
