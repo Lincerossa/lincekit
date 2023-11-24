@@ -1,3 +1,11 @@
+# [1.9.0](https://github.com/Lincerossa/lincekit/compare/v1.8.0...v1.9.0) (2023-11-24)
+
+
+### Features
+
+* added storybook styling themes to enable more theme injected by providers ([43b02c0](https://github.com/Lincerossa/lincekit/commit/43b02c0127589f82b5d13c1b9568b97eacac5d5d))
+* updated/deleted/added some basic components ([972338f](https://github.com/Lincerossa/lincekit/commit/972338ff6ee9d8eaf9bcfd5d3cf84ffb4d56aa3e))
+
 # [1.8.0](https://github.com/Lincerossa/lincekit/compare/v1.7.0...v1.8.0) (2023-09-22)
 
 
