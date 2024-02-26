@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/Lincerossa/lincekit/compare/v1.9.1...v1.9.2) (2024-02-26)
+
+
+### Bug Fixes
+
+* test github account ([9a7f85e](https://github.com/Lincerossa/lincekit/commit/9a7f85ed74cef1d4c1a34c6efd1cd927b9f05ab7))
+
 ## [1.9.1](https://github.com/Lincerossa/lincekit/compare/v1.9.0...v1.9.1) (2023-11-24)
 
 
